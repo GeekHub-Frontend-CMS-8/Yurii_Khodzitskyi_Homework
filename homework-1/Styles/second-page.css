@@ -1,0 +1,84 @@
+body {
+	margin-top: 0;
+	border-width: 5px 0 0 0;
+	border-color: orange;
+	border-style: solid;
+}
+.wrapper {
+	margin: 30px 20px;
+	height: 1000px;
+}
+
+
+
+/*LOGO*/
+.header-logo-img-block {
+	width: 16%;
+	float: left;
+	padding-right: 3%;
+	border-color: black;
+	border-width: 0 0.5px 0 0;
+	border-style: solid;
+}
+.header-logo-img-block img {
+	max-width: 100%;
+}
+
+.header-logo-text-block {
+	width: 75%;
+	float:right;
+	padding-left: 5%;
+}
+.logo-text-first-string {
+	color: orange;
+	margin:2px;
+	text-transform: uppercase;
+}
+
+.logo-text-second-string {
+	margin:7px 0px;
+	color: #6b6b6b;
+}
+
+
+/*NAVBAR*/
+.navbar{
+	width: 100%;
+	float: left;
+	height: 60px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.4px 0;
+	margin:20px auto;
+}
+.navbar ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+.navbar ul li{
+	width: 19%;
+	margin:auto;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.navbar ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+.navbar ul li a:link {
+	color: #6b6b6b;
+}
+.navbar ul li a:visited {
+	color: #6b6b6b;
+}
+.navbar ul li a:hover {
+	background-color: #F0F8FF;
+}
+
+
+
